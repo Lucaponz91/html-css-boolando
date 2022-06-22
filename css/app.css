@@ -33,6 +33,7 @@ header {
 }
 
 .card {
+    position: relative;
     width: calc( 100% / 3 );
     height: 725px;
     background-color: aquamarine;
@@ -44,6 +45,12 @@ img {
     max-width: 448px;
     max-height: 644px;
 
+}
+
+img::after {
+    background-image: url(../img/1b.webp);
+    position: absolute;
+    z-index: 1;
 }
 
 .red {
