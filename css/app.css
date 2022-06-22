@@ -10,7 +10,12 @@ header {
     background-color: #FF6900;
     color: white;
     margin: auto;
+    margin-left: 223px;
+    position: fixed;
     height: 72px;
+    top: 0;
+    width: 1920px;
+    z-index: 1;
 }
 
 .header-row {
@@ -18,16 +23,30 @@ header {
     justify-content: space-between;
     max-width: 1400px;
     margin: auto;
+    align-items: center;
 
+}
+
+.navbar {
+    padding: 17px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-inline: 3px;
+    font-weight: 700;
 }
 
 #header-logo {
     width: 150px;
 }
 
+.card-container {
+    margin-top: 130px;
+}
 .card-row {
     display: flex;
-    background-color: lightgray;
     max-width: 1400px;
     margin: auto;
     flex-wrap: wrap;
@@ -37,10 +56,8 @@ header {
 
 .card {
     position: relative;
-    width: calc( 1360px / 3 );
+    width: 447px;
     height: 725px;
-    background-color: aquamarine;
-    border: 1px dashed black;
 
 }
 
@@ -50,8 +67,28 @@ img {
 
 }
 
-img:hover {
+#img1:hover {
     content: url(../img/1b.webp);
+}
+
+#img2:hover {
+    content: url(../img/2b.webp);
+}
+
+#img3:hover {
+    content: url(../img/3b.webp);
+}
+
+#img4:hover {
+    content: url(../img/4b.webp);
+}
+
+#img5:hover {
+    content: url(../img/5b.webp);
+}
+
+#img6:hover {
+    content: url(../img/6b.webp);
 }
 
 .sticker {
@@ -87,3 +124,7 @@ img:hover {
     color: red;
 }
 
+.solo{
+    position: absolute;
+    left: 0%;
+}
