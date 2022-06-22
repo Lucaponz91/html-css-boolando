@@ -47,10 +47,9 @@ img {
 
 }
 
-img::after {
-    background-image: url(../img/1b.webp);
+img:hover {
+    content: url(../img/1b.webp);
     position: absolute;
-    z-index: 1;
 }
 
 .red {
