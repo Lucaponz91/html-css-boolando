@@ -6,15 +6,13 @@
 }
 
 header {
-    max-width: 1920px;
     background-color: #FF6900;
     color: white;
     margin: auto;
-    margin-left: 223px;
     position: fixed;
     height: 72px;
     top: 0;
-    width: 1920px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -29,6 +27,10 @@ header {
 
 .navbar {
     padding: 17px;
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
 }
 
 a {
@@ -38,6 +40,9 @@ a {
     font-weight: 700;
 }
 
+.store {
+    margin-right: 13px;
+}
 #header-logo {
     width: 150px;
 }
@@ -127,4 +132,39 @@ img {
 .solo{
     position: absolute;
     left: 0%;
+}
+
+footer {
+    background-color: #1A1A1A;
+    height: 111px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.footer-container {
+    max-width: 1920px;
+    padding-top: 30px;
+}
+
+.footer-row {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+
+.col {
+    color: white;
+}
+
+.col1 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.col-flex {
+    display: flex;
+    margin-top: 10px;
+
 }
